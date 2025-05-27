@@ -1,28 +1,52 @@
-Problem : Reverse an Array
+# [Reverse an Array](https://www.geeksforgeeks.org/problems/reverse-an-array/1)
 
-Problem Link : https://www.geeksforgeeks.org/problems/reverse-an-array/1
+You are given an array of integers `arr[]`. Your task is to reverse the given array **in place**.
 
-Description : 
+## 📝 Problem Statement
+- **Modify the array** without using extra space.  
+- Return the reversed array.
 
-You are given an array of integers arr[]. Your task is to reverse the given array.
+## 🔢 Constraints
+- `1 <= arr.length <= 10^5`  
+- `0 <= arr[i] <= 10^5`  
 
-Note: Modify the array in place.
+## 📊 Examples
 
-Examples:
+### Example 1
+**Input:**  
+`arr = [1, 4, 3, 2, 6, 5]`  
+**Output:**  
+`[5, 6, 2, 3, 4, 1]`  
 
-Input: arr = [1, 4, 3, 2, 6, 5]
-Output: [5, 6, 2, 3, 4, 1]
-Explanation: The elements of the array are 1 4 3 2 6 5. After reversing the array, the first element goes to the last position, the second element goes to the second last position and so on. Hence, the answer is 5 6 2 3 4 1.
+**Explanation:**  
+The elements of the array are `1 4 3 2 6 5`. After reversing, the first element moves to the last position,  
+the second element moves to the second last position, and so on.  
 
-Input: arr = [4, 5, 2]
-Output: [2, 5, 4]
-Explanation: The elements of the array are 4 5 2. The reversed array will be 2 5 4.
+---
 
-Input: arr = [1]
-Output: [1]
-Explanation: The array has only single element, hence the reversed array is same as the original.
+### Example 2
+**Input:**  
+`arr = [4, 5, 2]`  
+**Output:**  
+`[2, 5, 4]`  
 
-Constraints:
-1<=arr.size()<=105
-0<=arr[i]<=105
+**Explanation:**  
+The reversed array of `4 5 2` is `2 5 4`.  
 
+---
+
+### Example 3
+**Input:**  
+`arr = [1]`  
+**Output:**  
+`[1]`  
+
+**Explanation:**  
+Single-element arrays remain unchanged after reversal.  
+
+
+
+
+## 🔗 Additional Resources
+- [GeeksforGeeks Problem Link](https://www.geeksforgeeks.org/problems/reverse-an-array/1)  
+- [Two-Pointer Guide](https://www.geeksforgeeks.org/two-pointers-technique/)  
